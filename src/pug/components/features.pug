@@ -1,0 +1,25 @@
+mixin card(args={})
+      .card 
+         img(src=args.img, alt=title).card__img 
+         h3.card__title= args.title
+         p.card__text= args.text
+section.features
+      div.conteiner 
+         p.features__subtitle Features
+         h2.features__title Food with a New Passion
+         div.features__row 
+            +card({
+                  title: 'Quality Food',
+                  text: 'It can be a very secure path to earn good money and make you very successful creative entrepreneur.',
+                  img: './assets/imgs/house.svg'
+            })
+            +card({
+                  title: 'Food Delivery',
+                  text: 'It can be a very secure path to earn good money and make you very successful creative entrepreneur.',
+                  img: './assets/imgs/bike.svg'
+            })
+            +card({
+                  title: 'Super Taste',
+                  text: 'It can be a very secure path to earn good money and make you very successful creative entrepreneur.',
+                  img: './assets/imgs/smile.svg'
+            })

@@ -1,0 +1,48 @@
+.lastsk {
+   background: #252525;
+   padding: 135px 0px 80px 0px;
+ }
+ 
+ .logo__img {
+   margin-bottom: 25px;
+ }
+ 
+ .footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ 
+   &__title {
+     font-family: Philosopher;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 20px;
+     color: #ffffff;
+     margin-bottom: 26px;
+   }
+ 
+   &__item {
+     font-size: 14px;
+     line-height: 16px;
+     color: rgba(255, 255, 255, 0.7);
+     list-style-type: none;
+     margin-bottom: 20px;
+   }
+ 
+   &__link {
+     line-height: 16px;
+     color: rgba(255, 255, 255, 0.7);
+     list-style-type: none;
+     margin-bottom: 20px;
+     text-decoration: none;
+   }
+   &__link:hover {
+     color: rgba(220, 120, 11, 1);
+     transition: 1s;
+     text-decoration: line-through;
+   }
+ }
+ 
+ .icon__link {
+   margin-right: 10px;
+ }

@@ -1,0 +1,47 @@
+.fs {
+   padding: 160px 0px 223px 0px;
+}
+
+.main {
+   max-width: 545px;
+
+   &__img {
+      position: absolute;
+      top: -129px;
+      right: 0;
+      max-width: 100%;
+   }
+
+   &__title {
+      font-family: Philosopher;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48.83px;
+      line-height: 58px;
+   }
+   &__text {
+      margin: 45px 0px 50px 0px;
+   }
+   &__btn {
+      padding: 20px 40px;
+      margin-right: 30px;
+   }
+   &__btn-Details {
+      color: #DC780B;
+      border: 1.5px solid #DC780B;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background: #Fff;
+   }
+}
+
+@media (max-width: 946.98px) {
+   .main__img {
+      display: none;
+   }
+   
+   .main {
+      max-width: 579px;
+      margin: 0 auto;
+   }
+}

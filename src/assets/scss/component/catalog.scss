@@ -1,0 +1,80 @@
+.catalog {
+   &__subtitle {
+     text-align: center;
+     letter-spacing: 0.2em;
+     text-transform: uppercase;
+     color: #dc780b;
+     opacity: 0.7;
+   }
+ 
+   &__title {
+     margin: 9px 0px 25px 0px;
+     text-align: center;
+     font-family: Philosopher;
+     font-weight: bold;
+     font-size: 31.25px;
+     line-height: 24px;
+     color: rgba(21, 12, 1, 1);
+   }
+ 
+   &__text {
+     text-align: center;
+     max-width: 748px;
+     line-height: 24px;
+     margin: 0 auto 60px auto;
+     color: rgba(21, 12, 1, 0.7);
+   }
+ 
+   &__btn {
+     display: block;
+     width: 120px;
+     margin: 50px auto 100px auto;
+     color: #dc780b;
+     border: 1px solid #dc780b;
+     border-radius: 5px;
+     background: #ffffff;
+   }
+ }
+ 
+ .catalog__row {
+   display: grid;
+   gap: 30px;
+   grid-template-columns: 1fr 1fr 1fr;
+ }
+ 
+ .product {
+   display: flex;
+   flex-direction: column;
+   background: #ffffff;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   box-sizing: border-box;
+   border-radius: 75px 10px 10px 10px;
+   &__img {
+     max-width: 360px;
+   }
+   &__description {
+     padding: 0px 25px;
+   }
+ }
+ 
+ .product__name {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 25px;
+   font-family: Philosopher;
+   font-weight: bold;
+   align-items: center;
+   color: #150c01;
+ }
+ 
+ .product__grade {
+   display: flex;
+   padding: 20px 25px;
+   justify-content: space-between;
+ }
+ 
+ .grade__btn {
+   padding: 4px 10px;
+   color: #ffffff;
+ }
+ 

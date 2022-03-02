@@ -1,0 +1,26 @@
+@import "./main/stylesheet.scss";
+@import "../scss/component/header.scss";
+@import "../scss/component/fs.scss";
+@import "../scss/component/features.scss";
+@import "../scss/component/catalog.scss";
+@import "../scss/component/footer.scss";
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 0.7);
+}
+.conteiner {
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  position: relative;
+}
